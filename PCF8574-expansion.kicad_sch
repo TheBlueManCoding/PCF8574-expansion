@@ -734,10 +734,10 @@
     )
   )
 
-  (junction (at 85.09 99.06) (diameter 0) (color 0 0 0 0)
+  (junction (at 80.01 99.06) (diameter 0) (color 0 0 0 0)
     (uuid 00e2c566-7cd4-4290-9f5d-7d8a87f6c829)
   )
-  (junction (at 85.09 96.52) (diameter 0) (color 0 0 0 0)
+  (junction (at 80.01 96.52) (diameter 0) (color 0 0 0 0)
     (uuid 13a6e543-7939-498a-9cf6-b3c3dd892c23)
   )
   (junction (at 181.61 54.61) (diameter 0) (color 0 0 0 0)
@@ -752,6 +752,9 @@
   (junction (at 173.99 54.61) (diameter 0) (color 0 0 0 0)
     (uuid 2ee67a53-be6f-46ee-862d-62187566c950)
   )
+  (junction (at 93.98 93.98) (diameter 0) (color 0 0 0 0)
+    (uuid 38597ecc-ae1d-4631-bf39-a3a80dc8188a)
+  )
   (junction (at 93.98 88.9) (diameter 0) (color 0 0 0 0)
     (uuid 416dd829-1334-435d-a313-2493decd2b42)
   )
@@ -761,8 +764,17 @@
   (junction (at 91.44 86.36) (diameter 0) (color 0 0 0 0)
     (uuid a0ea29e1-46e4-4a2c-9b1e-d0efe94a9827)
   )
+  (junction (at 91.44 96.52) (diameter 0) (color 0 0 0 0)
+    (uuid b0a07607-d620-4c26-bf44-e8184b7aee71)
+  )
   (junction (at 109.22 78.74) (diameter 0) (color 0 0 0 0)
     (uuid d9375db9-96f3-4391-b7d1-6e8ceeb57d6f)
+  )
+  (junction (at 91.44 120.65) (diameter 0) (color 0 0 0 0)
+    (uuid df2fbc93-692e-4e18-a450-76e2a3fff985)
+  )
+  (junction (at 88.9 99.06) (diameter 0) (color 0 0 0 0)
+    (uuid eb9098f6-dbc2-4c76-9b7b-123e65fe426d)
   )
 
   (no_connect (at 96.52 106.68) (uuid 22745875-7dbf-4cea-a815-1b0bb331e0b6))
@@ -791,7 +803,11 @@
     (stroke (width 0) (type default))
     (uuid 127f953a-96ce-4899-99f3-24b7df01f0ed)
   )
-  (wire (pts (xy 85.09 99.06) (xy 86.36 99.06))
+  (wire (pts (xy 93.98 93.98) (xy 96.52 93.98))
+    (stroke (width 0) (type default))
+    (uuid 143b8fd2-b9c9-4fb2-9dad-f3682ccbe4a2)
+  )
+  (wire (pts (xy 80.01 99.06) (xy 81.28 99.06))
     (stroke (width 0) (type default))
     (uuid 14417a86-05d2-498a-83c8-1ac4acfac2f6)
   )
@@ -799,9 +815,13 @@
     (stroke (width 0) (type default))
     (uuid 166e308d-0158-4ac8-98ac-f38f0e5d35a2)
   )
-  (wire (pts (xy 93.98 96.52) (xy 96.52 96.52))
+  (wire (pts (xy 88.9 96.52) (xy 91.44 96.52))
     (stroke (width 0) (type default))
     (uuid 199bb4aa-16a7-42a7-8a49-3e21f759f142)
+  )
+  (wire (pts (xy 91.44 96.52) (xy 91.44 113.03))
+    (stroke (width 0) (type default))
+    (uuid 1f4f8e25-fefb-4dcc-a3e9-84d035db41a5)
   )
   (wire (pts (xy 88.9 88.9) (xy 93.98 88.9))
     (stroke (width 0) (type default))
@@ -851,7 +871,7 @@
     (stroke (width 0) (type default))
     (uuid 3e8eb624-2892-4719-bf10-f75ac21a7df4)
   )
-  (wire (pts (xy 85.09 93.98) (xy 85.09 96.52))
+  (wire (pts (xy 80.01 93.98) (xy 80.01 96.52))
     (stroke (width 0) (type default))
     (uuid 46abc98d-6571-46d2-bcd1-f1edeb997e8b)
   )
@@ -859,7 +879,7 @@
     (stroke (width 0) (type default))
     (uuid 48ac4adf-8c89-4daf-9851-6c4afdb1d26c)
   )
-  (wire (pts (xy 86.36 93.98) (xy 85.09 93.98))
+  (wire (pts (xy 81.28 93.98) (xy 80.01 93.98))
     (stroke (width 0) (type default))
     (uuid 4bc35c6a-3087-4333-a14f-773b23c77474)
   )
@@ -891,17 +911,33 @@
     (stroke (width 0) (type default))
     (uuid 5e9c6368-aff2-4ff5-b208-74cbc8f2f44a)
   )
-  (wire (pts (xy 85.09 99.06) (xy 85.09 100.33))
+  (wire (pts (xy 80.01 99.06) (xy 80.01 100.33))
     (stroke (width 0) (type default))
     (uuid 6052ad85-9000-4719-bc94-2863c4e35cb8)
   )
-  (wire (pts (xy 85.09 96.52) (xy 86.36 96.52))
+  (wire (pts (xy 80.01 96.52) (xy 81.28 96.52))
     (stroke (width 0) (type default))
     (uuid 67da3c24-e803-4a09-8004-aa33cef7070d)
+  )
+  (wire (pts (xy 88.9 99.06) (xy 88.9 113.03))
+    (stroke (width 0) (type default))
+    (uuid 67ddf492-1b88-4348-bd3b-e299b37ea2e5)
   )
   (wire (pts (xy 217.17 135.89) (xy 218.44 135.89))
     (stroke (width 0) (type default))
     (uuid 695084a4-d898-4049-8bec-f44122936b73)
+  )
+  (wire (pts (xy 91.44 124.46) (xy 91.44 120.65))
+    (stroke (width 0) (type default))
+    (uuid 6e4f1d56-40cd-4dbb-a145-53245eae3ecc)
+  )
+  (wire (pts (xy 91.44 120.65) (xy 93.98 120.65))
+    (stroke (width 0) (type default))
+    (uuid 75dcd5c3-55b3-4f7a-89b3-5269e163035f)
+  )
+  (wire (pts (xy 93.98 93.98) (xy 93.98 113.03))
+    (stroke (width 0) (type default))
+    (uuid 75ea8e13-a720-467b-9771-fb974d8bbd98)
   )
   (wire (pts (xy 135.89 78.74) (xy 109.22 78.74))
     (stroke (width 0) (type default))
@@ -915,7 +951,7 @@
     (stroke (width 0) (type default))
     (uuid 8fbacfc6-2930-4976-b524-fb6948bfbd39)
   )
-  (wire (pts (xy 96.52 93.98) (xy 93.98 93.98))
+  (wire (pts (xy 88.9 93.98) (xy 93.98 93.98))
     (stroke (width 0) (type default))
     (uuid 96669834-efff-4759-bbd2-be574a159065)
   )
@@ -934,6 +970,10 @@
   (wire (pts (xy 66.04 99.06) (xy 67.31 99.06))
     (stroke (width 0) (type default))
     (uuid b0313825-3211-4924-9d15-e7f5e854eab8)
+  )
+  (wire (pts (xy 88.9 120.65) (xy 91.44 120.65))
+    (stroke (width 0) (type default))
+    (uuid b055b741-043f-49e7-a652-c0063c26b7c8)
   )
   (wire (pts (xy 177.8 54.61) (xy 181.61 54.61))
     (stroke (width 0) (type default))
@@ -955,7 +995,7 @@
     (stroke (width 0) (type default))
     (uuid bb1325b3-428c-4d4e-9d7a-ba31a218fe05)
   )
-  (wire (pts (xy 96.52 99.06) (xy 93.98 99.06))
+  (wire (pts (xy 88.9 99.06) (xy 96.52 99.06))
     (stroke (width 0) (type default))
     (uuid bf5a78d0-7834-4ee3-85e3-2b75903cd55e)
   )
@@ -982,6 +1022,10 @@
   (wire (pts (xy 66.04 106.68) (xy 67.31 106.68))
     (stroke (width 0) (type default))
     (uuid d99088e5-a8a4-419b-bca2-87ff630a8f68)
+  )
+  (wire (pts (xy 91.44 96.52) (xy 96.52 96.52))
+    (stroke (width 0) (type default))
+    (uuid da7d83b0-921e-40cc-9583-6ec17baeb66b)
   )
   (wire (pts (xy 186.69 140.97) (xy 189.23 140.97))
     (stroke (width 0) (type default))
@@ -1019,7 +1063,7 @@
     (stroke (width 0) (type default))
     (uuid fca817b5-81bf-4ff9-8412-830d54f8809f)
   )
-  (wire (pts (xy 85.09 96.52) (xy 85.09 99.06))
+  (wire (pts (xy 80.01 96.52) (xy 80.01 99.06))
     (stroke (width 0) (type default))
     (uuid fe69a6ac-0a56-44d3-81a2-1bb677c77907)
   )
@@ -1201,7 +1245,7 @@
           (reference "#PWR050") (unit 1)
         )
       )
-      (project "PCF8574"
+      (project "PCF8574-expansion"
         (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
           (reference "#PWR015") (unit 1)
         )
@@ -1232,7 +1276,7 @@
           (reference "J11") (unit 1)
         )
       )
-      (project "PCF8574"
+      (project "PCF8574-expansion"
         (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
           (reference "J8") (unit 1)
         )
@@ -1262,7 +1306,7 @@
           (reference "H2") (unit 1)
         )
       )
-      (project "PCF8574"
+      (project "PCF8574-expansion"
         (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
           (reference "H2") (unit 1)
         )
@@ -1287,7 +1331,7 @@
     )
     (pin "1" (uuid e9783cf9-44a9-4c59-b67a-562cbd9b2c58))
     (instances
-      (project "PCF8574"
+      (project "PCF8574-expansion"
         (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
           (reference "#PWR02") (unit 1)
         )
@@ -1317,7 +1361,7 @@
           (reference "#PWR072") (unit 1)
         )
       )
-      (project "PCF8574"
+      (project "PCF8574-expansion"
         (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
           (reference "#PWR019") (unit 1)
         )
@@ -1342,7 +1386,7 @@
     )
     (pin "1" (uuid 8090d4aa-d38b-4b27-8ab8-493a40247838))
     (instances
-      (project "PCF8574"
+      (project "PCF8574-expansion"
         (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
           (reference "#PWR020") (unit 1)
         )
@@ -1373,7 +1417,7 @@
           (reference "R6") (unit 1)
         )
       )
-      (project "PCF8574"
+      (project "PCF8574-expansion"
         (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
           (reference "R2") (unit 1)
         )
@@ -1404,7 +1448,7 @@
           (reference "R6") (unit 1)
         )
       )
-      (project "PCF8574"
+      (project "PCF8574-expansion"
         (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
           (reference "R1") (unit 1)
         )
@@ -1435,7 +1479,7 @@
           (reference "C3") (unit 1)
         )
       )
-      (project "PCF8574"
+      (project "PCF8574-expansion"
         (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
           (reference "C1") (unit 1)
         )
@@ -1465,7 +1509,7 @@
           (reference "#PWR050") (unit 1)
         )
       )
-      (project "PCF8574"
+      (project "PCF8574-expansion"
         (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
           (reference "#PWR017") (unit 1)
         )
@@ -1490,7 +1534,7 @@
     )
     (pin "1" (uuid 98f36d3b-ad46-4b72-a742-b76cdc7b1c76))
     (instances
-      (project "PCF8574"
+      (project "PCF8574-expansion"
         (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
           (reference "#PWR08") (unit 1)
         )
@@ -1520,7 +1564,7 @@
           (reference "H1") (unit 1)
         )
       )
-      (project "PCF8574"
+      (project "PCF8574-expansion"
         (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
           (reference "H1") (unit 1)
         )
@@ -1553,7 +1597,7 @@
           (reference "J32") (unit 1)
         )
       )
-      (project "PCF8574"
+      (project "PCF8574-expansion"
         (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
           (reference "J7") (unit 1)
         )
@@ -1583,7 +1627,7 @@
           (reference "#PWR050") (unit 1)
         )
       )
-      (project "PCF8574"
+      (project "PCF8574-expansion"
         (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
           (reference "#PWR014") (unit 1)
         )
@@ -1591,19 +1635,19 @@
     )
   )
 
-  (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 90.17 96.52 0) (unit 1)
+  (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 85.09 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 512881a8-73c8-42dc-b2dc-7dd9b2ee2e3d)
-    (property "Reference" "JP4" (at 90.17 91.44 0)
+    (property "Reference" "JP4" (at 85.09 91.44 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "A1" (at 90.17 93.98 0)
+    (property "Value" "A1" (at 85.09 93.98 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" (at 90.17 96.52 0)
+    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" (at 85.09 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 90.17 96.52 0)
+    (property "Datasheet" "~" (at 85.09 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1839a2eb-f55d-40b9-b4bb-6a4182042645))
@@ -1614,7 +1658,7 @@
           (reference "JP4") (unit 1)
         )
       )
-      (project "PCF8574"
+      (project "PCF8574-expansion"
         (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
           (reference "JP2") (unit 1)
         )
@@ -1639,7 +1683,7 @@
     )
     (pin "1" (uuid 2aee1ce5-2eae-460f-af13-11872c640759))
     (instances
-      (project "PCF8574"
+      (project "PCF8574-expansion"
         (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
           (reference "#PWR07") (unit 1)
         )
@@ -1664,7 +1708,7 @@
     )
     (pin "1" (uuid 3e678672-89fd-460c-a72b-8b4c90ba22ba))
     (instances
-      (project "PCF8574"
+      (project "PCF8574-expansion"
         (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
           (reference "#PWR010") (unit 1)
         )
@@ -1689,9 +1733,40 @@
     )
     (pin "1" (uuid 022096d6-7958-442f-9d43-6df16aa818fa))
     (instances
-      (project "PCF8574"
+      (project "PCF8574-expansion"
         (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
           (reference "#PWR022") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 93.98 116.84 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 5ea77001-8513-4ba2-91e9-3b78b1d19b2e)
+    (property "Reference" "R6" (at 93.98 110.49 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "10K" (at 93.98 113.03 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 95.758 116.84 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 93.98 116.84 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid fdcacee9-2445-4991-8551-61b66430fb51))
+    (pin "2" (uuid 1b87ffca-0c68-4d19-9f27-88faa30df14e))
+    (instances
+      (project "PanelModular"
+        (path "/48c4699d-781f-446b-a0f9-3fc39238b8d2"
+          (reference "R6") (unit 1)
+        )
+      )
+      (project "PCF8574-expansion"
+        (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -1734,7 +1809,7 @@
           (reference "U3") (unit 1)
         )
       )
-      (project "PCF8574"
+      (project "PCF8574-expansion"
         (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
           (reference "U1") (unit 1)
         )
@@ -1759,7 +1834,7 @@
     )
     (pin "1" (uuid 2c50b724-7686-4da9-a950-8ab3d6ebe63d))
     (instances
-      (project "PCF8574"
+      (project "PCF8574-expansion"
         (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
           (reference "#PWR05") (unit 1)
         )
@@ -1784,9 +1859,40 @@
     )
     (pin "1" (uuid 20307db1-9557-438f-a18b-b1664d03069d))
     (instances
-      (project "PCF8574"
+      (project "PCF8574-expansion"
         (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
           (reference "#PWR011") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 91.44 116.84 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 719e8947-86e0-4c46-8309-4fe5b348f466)
+    (property "Reference" "R6" (at 90.17 110.49 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "10K" (at 90.17 113.03 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 93.218 116.84 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 91.44 116.84 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid afd78d2d-19d0-40bd-8007-15ed51c0702a))
+    (pin "2" (uuid 442f4ec6-db43-4daa-ad48-3e3510d48bb2))
+    (instances
+      (project "PanelModular"
+        (path "/48c4699d-781f-446b-a0f9-3fc39238b8d2"
+          (reference "R6") (unit 1)
+        )
+      )
+      (project "PCF8574-expansion"
+        (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -1814,7 +1920,7 @@
           (reference "#PWR050") (unit 1)
         )
       )
-      (project "PCF8574"
+      (project "PCF8574-expansion"
         (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
           (reference "#PWR013") (unit 1)
         )
@@ -1845,7 +1951,7 @@
           (reference "J13") (unit 1)
         )
       )
-      (project "PCF8574"
+      (project "PCF8574-expansion"
         (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
           (reference "J4") (unit 1)
         )
@@ -1875,7 +1981,7 @@
           (reference "#PWR072") (unit 1)
         )
       )
-      (project "PCF8574"
+      (project "PCF8574-expansion"
         (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
           (reference "#PWR06") (unit 1)
         )
@@ -1905,7 +2011,7 @@
           (reference "H3") (unit 1)
         )
       )
-      (project "PCF8574"
+      (project "PCF8574-expansion"
         (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
           (reference "H3") (unit 1)
         )
@@ -1935,7 +2041,7 @@
           (reference "#PWR065") (unit 1)
         )
       )
-      (project "PCF8574"
+      (project "PCF8574-expansion"
         (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
           (reference "#PWR021") (unit 1)
         )
@@ -1943,19 +2049,19 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 85.09 100.33 0) (mirror y) (unit 1)
+  (symbol (lib_id "power:GND") (at 80.01 100.33 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 87d6fff7-8ef5-41c4-89e1-a6889883aadc)
-    (property "Reference" "#PWR069" (at 85.09 106.68 0)
+    (property "Reference" "#PWR069" (at 80.01 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 85.09 104.14 90)
+    (property "Value" "GND" (at 80.01 104.14 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 85.09 100.33 0)
+    (property "Footprint" "" (at 80.01 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 85.09 100.33 0)
+    (property "Datasheet" "" (at 80.01 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 77f9f681-c4b1-4457-897f-dddeeda9df98))
@@ -1965,7 +2071,7 @@
           (reference "#PWR069") (unit 1)
         )
       )
-      (project "PCF8574"
+      (project "PCF8574-expansion"
         (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
           (reference "#PWR01") (unit 1)
         )
@@ -1995,7 +2101,7 @@
           (reference "#PWR050") (unit 1)
         )
       )
-      (project "PCF8574"
+      (project "PCF8574-expansion"
         (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
           (reference "#PWR023") (unit 1)
         )
@@ -2003,19 +2109,19 @@
     )
   )
 
-  (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 90.17 99.06 0) (unit 1)
+  (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 85.09 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8997d4f6-6689-45a7-9f7b-28bbeb4851fd)
-    (property "Reference" "JP4" (at 90.17 93.98 0)
+    (property "Reference" "JP4" (at 85.09 93.98 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "A2" (at 90.17 96.52 0)
+    (property "Value" "A2" (at 85.09 96.52 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" (at 90.17 99.06 0)
+    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" (at 85.09 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 90.17 99.06 0)
+    (property "Datasheet" "~" (at 85.09 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5ef5cefd-45d0-43a8-a87e-9e379435ff41))
@@ -2026,7 +2132,7 @@
           (reference "JP4") (unit 1)
         )
       )
-      (project "PCF8574"
+      (project "PCF8574-expansion"
         (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
           (reference "JP3") (unit 1)
         )
@@ -2057,7 +2163,7 @@
           (reference "J14") (unit 1)
         )
       )
-      (project "PCF8574"
+      (project "PCF8574-expansion"
         (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
           (reference "J5") (unit 1)
         )
@@ -2087,7 +2193,7 @@
           (reference "#PWR071") (unit 1)
         )
       )
-      (project "PCF8574"
+      (project "PCF8574-expansion"
         (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
           (reference "#PWR03") (unit 1)
         )
@@ -2117,7 +2223,7 @@
           (reference "#PWR050") (unit 1)
         )
       )
-      (project "PCF8574"
+      (project "PCF8574-expansion"
         (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
           (reference "#PWR016") (unit 1)
         )
@@ -2147,7 +2253,7 @@
           (reference "#PWR050") (unit 1)
         )
       )
-      (project "PCF8574"
+      (project "PCF8574-expansion"
         (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
           (reference "#PWR012") (unit 1)
         )
@@ -2178,7 +2284,7 @@
           (reference "J12") (unit 1)
         )
       )
-      (project "PCF8574"
+      (project "PCF8574-expansion"
         (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
           (reference "J3") (unit 1)
         )
@@ -2211,7 +2317,7 @@
           (reference "J32") (unit 1)
         )
       )
-      (project "PCF8574"
+      (project "PCF8574-expansion"
         (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
           (reference "J1") (unit 1)
         )
@@ -2219,19 +2325,19 @@
     )
   )
 
-  (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 90.17 93.98 0) (unit 1)
+  (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 85.09 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d610b5b5-b375-477c-b50c-9c2380dfb360)
-    (property "Reference" "JP4" (at 90.17 88.9 0)
+    (property "Reference" "JP4" (at 85.09 88.9 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "A0" (at 90.17 91.44 0)
+    (property "Value" "A0" (at 85.09 91.44 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" (at 90.17 93.98 0)
+    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" (at 85.09 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 90.17 93.98 0)
+    (property "Datasheet" "~" (at 85.09 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5d45d9a9-3dbc-4694-97ef-e66df3426dc5))
@@ -2242,7 +2348,7 @@
           (reference "JP4") (unit 1)
         )
       )
-      (project "PCF8574"
+      (project "PCF8574-expansion"
         (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
           (reference "JP1") (unit 1)
         )
@@ -2273,7 +2379,7 @@
           (reference "J11") (unit 1)
         )
       )
-      (project "PCF8574"
+      (project "PCF8574-expansion"
         (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
           (reference "J6") (unit 1)
         )
@@ -2304,7 +2410,7 @@
           (reference "J11") (unit 1)
         )
       )
-      (project "PCF8574"
+      (project "PCF8574-expansion"
         (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
           (reference "J2") (unit 1)
         )
@@ -2329,7 +2435,7 @@
     )
     (pin "1" (uuid b4ecdca2-f7dc-441e-9550-94e61bcf61a3))
     (instances
-      (project "PCF8574"
+      (project "PCF8574-expansion"
         (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
           (reference "#PWR04") (unit 1)
         )
@@ -2354,7 +2460,7 @@
     )
     (pin "1" (uuid 3ddf0544-d895-496d-9082-89d7d0a819e4))
     (instances
-      (project "PCF8574"
+      (project "PCF8574-expansion"
         (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
           (reference "#PWR018") (unit 1)
         )
@@ -2397,9 +2503,40 @@
           (reference "D1") (unit 1)
         )
       )
-      (project "PCF8574"
+      (project "PCF8574-expansion"
         (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
           (reference "D1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 88.9 116.84 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid e73b308e-49a9-49a2-aaab-c75993d43c78)
+    (property "Reference" "R6" (at 86.36 110.49 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "10K" (at 85.09 113.03 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 90.678 116.84 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 88.9 116.84 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5501e503-1fd9-4d50-82fa-900f3eb41012))
+    (pin "2" (uuid 8cbca435-3a4b-4268-ac43-1351750a6dd7))
+    (instances
+      (project "PanelModular"
+        (path "/48c4699d-781f-446b-a0f9-3fc39238b8d2"
+          (reference "R6") (unit 1)
+        )
+      )
+      (project "PCF8574-expansion"
+        (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -2422,7 +2559,7 @@
     )
     (pin "1" (uuid 4d4dea3f-1ba9-4957-b763-97f87439ee4e))
     (instances
-      (project "PCF8574"
+      (project "PCF8574-expansion"
         (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
           (reference "#PWR09") (unit 1)
         )
@@ -2452,9 +2589,34 @@
           (reference "H4") (unit 1)
         )
       )
-      (project "PCF8574"
+      (project "PCF8574-expansion"
         (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
           (reference "H4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+VSW") (at 91.44 124.46 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f919d82c-f653-47fe-aa45-152a93293e27)
+    (property "Reference" "#PWR024" (at 91.44 120.65 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+VSW" (at 91.44 129.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 91.44 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 91.44 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5287af47-7a03-48ae-9b69-05a7daf780b3))
+    (instances
+      (project "PCF8574-expansion"
+        (path "/8994b5db-fc86-4605-a576-50e1f64c952d"
+          (reference "#PWR024") (unit 1)
         )
       )
     )
